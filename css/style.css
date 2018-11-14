@@ -1,0 +1,174 @@
+
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*
+Header css
+
+*/
+/*
+  Baner
+*/
+.header
+{
+   box-sizing: border-box;
+    height: 170px;
+    max-height: 170px;
+    padding: 50px 0;
+}
+.header .logo
+{
+
+}
+.header nav.menu
+{
+
+}
+.header nav.menu ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.header nav.menu li
+{
+   float: left;
+}
+.header nav.menu a
+{
+    display: inline-block;/* de co the dat duoc cac padding*/
+    padding: 20px;
+    color: #8d8d8d;
+    font-size: 20px;
+}
+.header nav.menu i
+{
+    color: #8d8d8d;
+    font-size: 12px;
+}
+.banner{
+    margin-top: -170px;
+    height: 936px;
+    width: 100%;
+    background: url("../images/background_header.png") top center;
+    display: table;
+}
+.banner h1
+{
+    font-size: 83px;
+    color: black;
+    display: table-cell;
+    text-align: center;/* can theo chieu ngang*/
+    vertical-align: middle;/* can theo chieu doc*/
+}
+.banner h1 span
+{
+    color: #f66c27;
+}
+/*
+footer css
+ */
+.footer{
+  background: linear-gradient(to right, #f66c27 50%, #ffffff 50%);/* chuyen mau tu trais qua.:: tao 2 mau o phan footer*/
+
+}
+.footer .contact-form{
+    background: #f66c27;
+    box-sizing: border-box;
+    height: 700px;
+}
+.contact-form .content-form{
+    background: white;
+    padding: 60px;
+    margin-top:138px;
+    margin-right:100px;
+}
+.content-form input,textarea{
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+    font-size: 15px;
+    color: #777777;
+}
+.first-row input
+{
+ width: 40%;
+}
+.first-row:after{
+    content: '';
+    clear: both;
+}
+.first-row input[name ="email"]{
+    float: right;
+}
+.content-form input[type="text"]
+{
+    padding: 5px;
+}
+.content-form input:focus,textarea:focus{
+    outline: none;
+}
+.contact-form-row
+{
+    padding: 20px;
+}
+.submit-row
+{
+    text-align: center;
+}
+.contact-form input[type="submit"]
+{
+    background: #f48146;
+    color: white;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+    font-size: 18px;
+}
+.footer .contact-info{
+    box-sizing: border-box;
+    height: 700px;
+    padding-left:100px;
+}
+.footer .contact-info h3
+{
+    margin-top: 108px;
+    font-size: 45px;
+}
+.line-contact-info
+{
+    padding: 20px;
+}
+.line-contact-info h4
+{
+    color:#333333;
+    font-size: 25px;
+}
+.line-contact-info p{
+    font-size: 15px;
+    max-width: 250px;
+    background: white;
+}
+.line-contact-info p span {
+    color: #f48146;
+}
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #f48146;
+}
